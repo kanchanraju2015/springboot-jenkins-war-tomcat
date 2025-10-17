@@ -18,5 +18,10 @@ public class SpringbootJenkinsWarTomcatApplication {
 	{
 		return "this is war test";
 	}
+	@RequestMapping("/end")
+	public String end()
+	{
+		return "end point";
+	}
 
 }
