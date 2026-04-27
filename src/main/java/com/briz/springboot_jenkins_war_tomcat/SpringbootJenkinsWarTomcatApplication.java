@@ -23,5 +23,10 @@ public class SpringbootJenkinsWarTomcatApplication {
 	{
 		return "end point";
 	}
+	@RequestMapping("/hello")
+	public String hello()
+	{
+		return "<h1>Hello Jenkins</h1>";
 
+}
 }
